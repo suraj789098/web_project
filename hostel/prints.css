@@ -1,0 +1,78 @@
+textarea { 
+	border: 0;
+	font: 14px Georgia, Serif;
+	overflow: hidden; 
+	resize: none; 
+	background-color:bisque;
+}
+
+table { 
+	border-collapse: collapse; 
+}
+table td, table th { 
+	border: 1px solid black; 
+	padding: 5px; 
+}
+
+#header { 
+	height: 15px; 
+	width: 100%; 
+	margin: 20px 0; 	
+	background: #222; 
+	text-align: center; 	
+	color: white; 
+	font: bold 15px Helvetica, Sans-Serif; 
+	text-decoration: uppercase; 
+	letter-spacing: 20px; 
+	padding: 8px 0px; 
+}
+
+#address {
+	width: 250px; 
+	height: 150px; 
+	float: left; 
+	background-color:bisque;
+}
+
+#logo { 
+	float: right; 
+	overflow: hidden; 
+}
+
+#name {
+	font-size: 20px;
+	font-weight: bold; 
+	float: left; 
+}
+
+.button1 {
+            background-color: #eee;
+            color: black;
+            padding: 3px 12px;
+            margin: 8px 3px;
+            border: 2px solid-black;
+            cursor: pointer;
+            width: auto;
+            font-size: 20px;
+	    top:90%;position:fixed;left: 50%;
+        }
+
+#meta { 
+	margin-top: 1px; 
+	width: 300px; 
+	float: right; 
+}
+#meta td { 
+	text-align: right;  
+}
+#meta td.meta-head { text-align: left; background: #eee; }
+#meta td textarea { width: 100%; height: 20px; text-align: right; }
+
+#items { clear: both; width: 100%; border: 1px solid black; }
+#items th { background: #eee; }
+
+@media print {
+  #printPageButton {
+    display: none;
+  }
+}

@@ -1,0 +1,177 @@
+.button1 {
+            background-color:burlywood;
+            color: black;
+            padding: 14px 20px;
+            margin: 12px 5px;
+            border: none;
+            cursor: pointer;
+            width: auto;
+            float: right;
+            font-size: 20px;
+            font-weight: bold;
+            border:1px solid black;
+        }
+
+.button1:hover{
+              background-color: brown;
+              opacity: 0.8;
+            }
+
+div.head{
+        z-index: 1;
+        background-color:bisque;
+         position:sticky;
+         top: 0;
+         padding: 5px 0px 0px 0px;
+        }
+
+body.scrolled #hd {
+  opacity: 0.5;
+  transition: opacity .2s;
+}
+body.scrolled #hd:hover {
+  opacity: 1.0;
+  transition: opacity .2s;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: antiquewhite;
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 60px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 0%;
+  width: 23%;
+}
+
+.animate {
+  animation-name: modalanimation;
+  animation-duration: 0.6s;
+}
+
+@keyframes modalanimation {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+.imgcontainer {
+  text-align: center;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  right: 20px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.close:hover{
+  color: red;
+  cursor: pointer;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.button2 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 30px 0 8px;
+  border: 1px;
+  cursor: pointer;
+  width: 30%;
+}
+
+.button2:hover {
+  opacity: 0.8;
+}
+
+div.box {
+  width: 50%;
+  height: 70%;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px solid black;
+    background-color: lightyellow;
+  box-shadow: 5px 10px 18px #888888;    
+}
+table{
+    font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+} 
+
+th, td {
+  border: 1px solid #dddddd;
+  background-color: burlywood;
+  text-align: left;
+  padding: 8px;
+}
+
+th{
+    background-color:rosybrown;
+}
+
+button1:disabled,
+button[disabled]{
+  opacity: 0.65; 
+  cursor: not-allowed;
+}
+
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  background-color: lightgoldenrodyellow;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dwnldbutton {
+            background-color: lightgoldenrodyellow;
+            color: black;
+            padding: 14px 20px;
+            margin-top: 10px;
+            border: none;
+            cursor: pointer;
+            width: auto;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+.dwnldbutton:hover{
+              background-color: yellow;
+              opacity: 0.8;
+            }
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+div.polaroid {
+  border: 1px solid black;    
+  width: 40%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
